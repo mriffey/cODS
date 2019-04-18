@@ -8,7 +8,7 @@
   INCLUDE('cODS.inc')  ! no ONCE needed
 
 
-**2) In the embed "After Global Data", (or, if you prefer, in the proc you want to debug), add this:**
+**2) In the embed "After Global Data", (or, if you prefer, in the proc you want to debug), add this so that "oODS" is starting in column 1:**
 
 oODS cODS  ! defines the oODS object based on the cODS class. 
 
