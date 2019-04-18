@@ -1,19 +1,19 @@
 **INSTALL: Put the inc and clw in \clarionroot\accessory\libsrc\win**
 
 
-**To implement in your app**
+**IMPLEMENT IN YOUR APP:**
 
-**In the embed "After Global INCLUDEs" (in global embeds), add this:**
+**1) In the embed "After Global INCLUDEs" (in global embeds), add this:**
 
   INCLUDE('cODS.inc')  ! no ONCE needed
 
 
-**3) In the embed "After Global Data", (or, if you prefer, in the proc you want to debug), add this:**
+**2) In the embed "After Global Data", (or, if you prefer, in the proc you want to debug), add this:**
 
 oODS cODS  ! defines the oODS object based on the cODS class. 
 
 
-**In your code when you want a message to come out in debugview++, code something like these samples:**
+**3) In your code when you want a message to come out in debugview++, code something like these samples:**
 
  oODS.debug('some danged comment, var=' & CLIP(somestringvar) & ' longvar=' & longvar) 
 
