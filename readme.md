@@ -1,12 +1,15 @@
 cODS.txt - ie: docs
 
-Put the inc and clw in \clarionroot\accessory\libsrc\win
+**Put the inc and clw in \clarionroot\accessory\libsrc\win**
 
-In the embed "After Global INCLUDEs" (in global embeds), add this:
+** To implement in your app **
+
+**In the embed "After Global INCLUDEs" (in global embeds), add this:**
+
   INCLUDE('cODS.inc')  ! no ONCE needed
 
 
-In the embed "After Global Data", (or, if you prefer, in the proc you want to debug), add this: 
+**3) In the embed "After Global Data", (or, if you prefer, in the proc you want to debug), add this: **
 
 oODS cODS  ! defines the oODS object based on the cODS class. 
 
