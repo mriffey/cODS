@@ -1,6 +1,5 @@
-cODS.txt - ie: docs
+**INSTALL: Put the inc and clw in \clarionroot\accessory\libsrc\win**
 
-**Put the inc and clw in \clarionroot\accessory\libsrc\win**
 
 **To implement in your app**
 
