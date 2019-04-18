@@ -2,7 +2,7 @@ cODS.txt - ie: docs
 
 **Put the inc and clw in \clarionroot\accessory\libsrc\win**
 
-** To implement in your app **
+**To implement in your app**
 
 **In the embed "After Global INCLUDEs" (in global embeds), add this:**
 
